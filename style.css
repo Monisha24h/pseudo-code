@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+}
+.header-title {
+    background: yellowgreen;
+    color: #fff;
+}
+.header-title span{
+    color: green;
+}
+.box-section {
+	padding: 50px 1px 50px 170px;
+	background: pink;
+	overflow: hidden;
+}
+.box {
+	width: 25%;
+	float: left;
+	background: rgb(251, 251, 250);
+	margin: 8px;
+	height: 215px;
+	text-align: justify;
+	padding: 14px;
+	text-align: center;
+}
+.box h1 {
+	text-transform: capitalize;
+}
+.box p::first-letter {
+	color: #7f14ea;
+	font-size: 35px;
+	font-weight: bold;
+}
+.link-area {
+	padding: 50px;
+	background: lavender;
+}
+.h-info:hover {
+	background: rebeccapurple;
+	font-size: 40px;
+	color: #ffff;
+	padding: 10px;
+}
+.fouse-work {
+	padding: 50px 0;
+	background: #95b4ce;
+	text-align: center;
+	font-size: 30px;
+	color: rebeccapurple;
+	font-weight: bolder;
+}
+  input {
+	padding: 20px;
+	font-size: 20px;
+  }
+  input:focus {
+	background: yellow;
+  }
+.hover-work {
+	padding: 50px;
+	background: #a4cea4;
+	text-align: center;
+}
+.hover-work input:hover {
+	background: red;
+}
+.info{
+	background: rgb(216, 215, 208);
+	text-align: center;
+	padding: 50px 0;
+	
+}
+table,th,td{
+    border: 1px solid #000;
+	margin-left: 45%;
+}
+.first-child tr:first-child{
+    background: rgb(206, 35, 13);
+}
+.last-child{
+	padding-top: 2%;
+}
+.last-child tr:last-child{
+    background: yellowgreen;
+}
+.odd tr:nth-child(odd){
+    background: yellowgreen;
+}
